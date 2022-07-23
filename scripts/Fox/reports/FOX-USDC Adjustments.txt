@@ -1,0 +1,15 @@
+FOX/USDC Adjustments
+
+BCV 90,000 => 70,000, 8 bonds:
+
+setAdjustment
+_addition: false
+_increment: 2500
+_target: 70000
+_buffer: 200
+
+Max Payout: 19 (0.019%) = 190,000.254 FOX = $60,800
+
+setBondTerms
+_parameter: 1
+_input: 19

@@ -1,0 +1,29 @@
+Assuming USF $0.68
+Assuming ETH/USF $112.00
+Market Price USF per ETH/USF: 60,714
+Discounted: 57,679
+Max Discount: 42,500
+
+Total USF Token Supply: 86,000,000
+Emissions Goal: 500k USF per month
+Emissions Goal (30 days): 450,000 (90% of 500,000)
+
+BCV: 93700
+Vesting: 46200 (7 days)
+Duration: 198000 (30 days)
+Min Price: 42500
+Max Payout: 22 (0.022%) = 18,920 USF = $12,866 = Max Payout 114.871 ETH/USF (Market)
+Max Debt: 2297400000000000000000 (2,297.4 ETH/USF)
+Initial Debt: 512480000000000000000 (512.48 ETH/USF)
+
+Bonding 103.384 ETH/USF = $11,579.04 (90% of max bond size)
+26 total bonds
+
+Total Payout given: 465,517.222 USF = $316,551.71
+Principal Bonded: 2,687.991 ETH/USF = $301,055.04
+
+465,517.222 / 500,000 - 93% of goal
+
+57,695 (5% discount) => bond of 103.384 ETH/USF => 69,333 (14% premium) => 7,766 blocks => 57,678 (5% discount) => bond of 103.384 ETH/USF => 69,315 (14% premium) => 7,756 blocks => etc
+
+initializeBond('93700', '46200', '42500', '22', '2297400000000000000000', '512480000000000000000')

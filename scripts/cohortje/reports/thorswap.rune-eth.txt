@@ -1,0 +1,29 @@
+Assuming THOR $1.10
+Assuming RUNE/ETH $525.00
+Market Price THOR per RUNE/ETH: 20,952
+Discounted: 19,905
+Max Discount: 14,667
+
+Total THOR Token Supply: 500,000,000
+Emissions Goal: $250k per month
+Emissions Goal (30 days): 204,545.455 (90% of 227,272.727)
+
+BCV: 1200000
+Vesting: 46200 (7 days)
+Duration: 198000 (30 days)
+Min Price: 14667
+Max Payout: 2 (0.002%) = 10,000 THOR = $11,000 = Max Payout 20.952 RUNE/ETH (Market)
+Max Debt: 419050000000000000000 (419.05 RUNE/ETH)
+Initial Debt: 80288000000000000000 (80.288 RUNE/ETH)
+
+Bonding 18.857 RUNE/ETH = $9,900.00 (90% of max bond size)
+23 total bonds
+
+Total Payout given: 217,648.58 THOR = $239,413.44
+Principal Bonded: 433.714 RUNE/ETH = $227,700.00
+
+217,648.58 / 227,272.727 - 96% of goal
+
+19,910 (5% discount) => bond of 18.857 RUNE/ETH => 24,586 (17% premium) => 8,796 blocks => 19,905 (5% discount) => bond of 18.857 RUNE/ETH => 24,581 (17% premium) => 8,787 blocks => etc
+
+initializeBond('1200000', '46200', '14667', '2', '419050000000000000000', '80288000000000000000')

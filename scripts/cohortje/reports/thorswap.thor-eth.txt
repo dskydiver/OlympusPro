@@ -1,0 +1,29 @@
+Assuming THOR $1.10
+Assuming THOR/ETH $145.00
+Market Price THOR per THOR/ETH: 75,862
+Discounted: 72,069
+Max Discount: 53,103
+
+Total THOR Token Supply: 500,000,000
+Emissions Goal: $750k per month
+Emissions Goal (30 days): 613,636.364 (90% of 681,818.182)
+
+BCV: 400000
+Vesting: 46200 (7 days)
+Duration: 198000 (30 days)
+Min Price: 53103
+Max Payout: 5 (0.005%) = 25,000 THOR = $27,500 = Max Payout 189.655 THOR/ETH (Market)
+Max Debt: 3793100000000000000000 (3,793.1 THOR/ETH)
+Initial Debt: 872080000000000000000 (872.08 THOR/ETH)
+
+Bonding 170.69 THOR/ETH = $24,750.00 (90% of max bond size)
+27 total bonds
+
+Total Payout given: 638,778.851 THOR = $702,656.74
+Principal Bonded: 4,608.621 THOR/ETH = $668,250.00
+
+638,778.851 / 681,818.182 - 94% of goal
+
+72,089 (5% discount) => bond of 170.69 THOR/ETH => 86,197 (14% premium) => 7,572 blocks => 72,069 (5% discount) => bond of 170.69 THOR/ETH => 86,178 (14% premium) => 7,565 blocks => etc
+
+initializeBond('400000', '46200', '53103', '5', '3793100000000000000000', '872080000000000000000')

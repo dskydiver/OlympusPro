@@ -1,0 +1,32 @@
+Assuming VOICE $135.00
+Assuming VOICE/ETH $1,352.323440119
+Market Price: 998,282 (0.0998282 VOICE/ETH is worth 1 VOICE)
+Discounted: 948,368
+
+Total VOICE Token Supply: 44,612.46
+Emissions Goal: 1,500 VOICE per month
+Emissions Goal (30 days): 1,350 (90% of 1,500)
+
+BCV: 17000
+Vesting: 46200 (7 days)
+Simulation Duration: 198000 (30 days)
+Min Price: 698797
+Max Payout: 166 (0.166%) = 74.057 VOICE = $9,998 = Max Payout 7.3929446088126465 VOICE/ETH (Market)
+Max Debt: 147860000000000000000 (147.86 VOICE/ETH)
+Initial Debt: 24086000000000000000 (24.086 VOICE/ETH)
+
+Bonding 6.653650147931382 VOICE/ETH = $8,997.89 (90% of max bond size)
+20 total bonds
+
+Total Payout given: 1,401.69 VOICE = $189,228.12
+Principal Bonded: 133.073 VOICE/ETH = $179,957.74
+Payout Fees Taken In: 48.284 VOICE = $6,518.36
+
+1,401.69 / 1,500 - 93% of goal
+
+948,382 (5% discount) => bond of 6.654 VOICE/ETH => 1,210,348 (21% premium) => 10,001 blocks => 948,342 (5% discount) => bond of 6.654 VOICE/ETH => 1,210,302 (21% premium) => 9,999 blocks => etc
+
+Please double-check price assumptions, the payout token total supply, and emissions goals.
+
+When ready to go live:
+4. initializeBond('17000', '46200', '698797', '166', '147860000000000000000', '24086000000000000000')

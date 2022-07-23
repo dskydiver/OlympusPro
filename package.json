@@ -1,0 +1,29 @@
+{
+  "name": "olympuspro",
+  "version": "1.0.0",
+  "description": "1. From the terminal, navigate to this directory\r 2. `npm install hardhat`\r 3. `npx hardhat run scripts/[partner]/[partner]Deploy.js`\r 4. `npm install [remaining dependencies]` as needed until script runs",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.5",
+    "hardhat": "^2.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlympusDAO/OlympusPro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlympusDAO/OlympusPro/issues"
+  },
+  "homepage": "https://github.com/OlympusDAO/OlympusPro#readme"
+}

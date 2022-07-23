@@ -1,0 +1,32 @@
+Please double-check price assumptions, the payout token total supply, and emissions goals.
+
+Assuming GAMMA $0.368102
+Assuming GAMMA/ETH $260,756.255325596
+Market Price: 14,117 (0.0000014117 GAMMA/ETH is worth 1 GAMMA)
+Discounted: 13,411
+
+Total GAMMA Token Supply: 100,000,000
+Emissions Goal: $250K GAMMA per month
+Emissions Goal (30 days): 611,243.623 (90% of 679,159.581)
+
+BCV: 80400
+Vesting: 46200 (7 days)
+Simulation Duration: 198000 (30 days)
+Min Price: 9882
+Max Payout: 28 (0.028%) = 28,000 GAMMA = $10,307 = Max Payout 0.0395267833062346 GAMMA/ETH (Market)
+Max Debt: 790540000000000000 (0.79054 GAMMA/ETH)
+Initial Debt: 161430000000000000 (0.16143 GAMMA/ETH)
+
+Bonding 0.03557410497561114 GAMMA/ETH = $9,276.17 (90% of max bond size)
+24 total bonds
+
+Total Payout given: 635,912.123 GAMMA = $234,080.52
+Principal Bonded: 0.854 GAMMA/ETH = $222,628.09
+Payout Fees Taken In: 21,905.321 GAMMA = $8,063.39
+
+635,912.123 / 679,159.581 - 94% of goal
+
+13,410 (5% discount) => bond of 0.036 GAMMA/ETH => 16,365 (16% premium) => 8,340 blocks => 13,411 (5% discount) => bond of 0.036 GAMMA/ETH => 16,366 (16% premium) => 8,341 blocks => etc
+
+When ready to go live:
+4. initializeBond('80400', '46200', '9882', '28', '790540000000000000', '161430000000000000')

@@ -1,0 +1,24 @@
+Assuming FOX $0.40
+Assuming USDC $1.00
+Market Price: 4,000,000 (0.4 USDC is worth 1 FOX)
+Discounted: 3,800,000
+
+Total FOX Token Supply: 1,000,001,337
+Emissions Goal: $3m per month
+Emissions Goal (30 days): 6,750,000 (90% of 7,500,000)
+
+BCV: 70000
+Vesting: 46200 (7 days)
+Simulation Duration: 198000 (30 days)
+Max Payout: 19 (0.019%) = 190,000.254 FOX = $76,000 = Max Payout 76,000.10161200001 USDC (Market)
+
+Bonding 68,400.091451 USDC = $68,400.09 (90% of max bond size)
+38 total bonds
+
+Total Payout given: 6,832,747.049 FOX = $2,733,098.82
+Principal Bonded: 2,512,649.999 USDC = $2,512,650.00
+Principal Fees Taken In: 86,553.476 USDC = $86,553.48
+
+6,832,747.049 / 7,500,000 - 91% of goal
+
+3,799,976 (5% discount) => bond of 68,400.091 USDC => 4,294,637 (7% premium) => 5,322 blocks => 3,799,917 (5% discount) => bond of 68,400.091 USDC => 4,294,568 (7% premium) => 5,321 blocks => etc

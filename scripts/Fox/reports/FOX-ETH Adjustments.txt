@@ -1,0 +1,15 @@
+FOX/ETH Adjustments
+
+BCV 119,720 => 130,000:
+
+setAdjustment
+_addition: true
+_increment: 1000
+_target: 130000
+_buffer: 200
+
+Max Payout: 14 (0.014%) = 140,000.187 FOX = $44,800
+
+setBondTerms
+_parameter: 1
+_input: 14
